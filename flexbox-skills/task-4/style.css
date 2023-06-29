@@ -23,3 +23,12 @@ li {
 }
 
 /* Add your solution below */
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li {
+  flex: 1;
+}

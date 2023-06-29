@@ -28,5 +28,6 @@ nav a:visited {
 /* Add your solution below */
 
 nav ul {
-  /* what should be set here? */
+  display: flex;
+  justify-content: space-between;
 }

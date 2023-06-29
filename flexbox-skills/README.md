@@ -27,7 +27,7 @@ Update the styles in `task-2/style.css` to complete the task.
 
 ## Task 3
 
-In this task, there are two elements in the HTML below, a <div> element with a class of parent which contains another <div> element with a class of child. Use flexbox to center the child inside the parent. Note that there is not just one possible solution here.
+In this task, there are two elements in the HTML below, a `<div>` element with a class of `parent` which contains another `<div>` element with a class of `child`. Use flexbox to center the child inside the parent. Note that there is not just one possible solution here.
 
 Your final result should look like the image below:
 

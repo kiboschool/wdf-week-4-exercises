@@ -24,9 +24,9 @@ li {
 /* Add your solution below */
 
 ul {
-
+  display: flex;
 }
 
 li {
-
+  flex: 1;
 }
