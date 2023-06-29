@@ -57,7 +57,7 @@
 
 body {
   background: linear-gradient(to bottom,#fff 12%,#f0f9f9 15.74%,#f0f9f9 100%);
-  max-width: 1000px;
+  max-width: 900px;
   margin: auto;
 }
 
@@ -73,7 +73,7 @@ header {
   top: 0;
   background: #fff;
   width: 90%;
-  max-width: 1000px;
+  max-width: 900px;
   margin: auto;
 }
 

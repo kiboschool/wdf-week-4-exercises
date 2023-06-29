@@ -27,5 +27,24 @@ describe('The recipe cards have the appropriate layout', () => {
     const container = document.querySelector('.container')
     const style= window.getComputedStyle(container)
     expect(style.display).toBe('flex')
+    expect(style.flexWrap).toBe('wrap')
+    expect(style.flexDirection).toBe('row')
+  });
+
+  test('body has max-width and margin', function () {
+    const body = document.querySelector('body')
+    const style= window.getComputedStyle(body)
+    expect(style.maxWidth).toBe('900px')
+    expect(style.margin).toBe('auto')
+  });
+
+  test('header is nicely fixed', function () {
+    const header = document.querySelector('header')
+    const style= window.getComputedStyle(header)
+    expect(style.position).toBe('fixed')
+    expect(style.background).toBe('rgb(255, 255, 255)')
+    expect(style.top).toBe('0px')
+    expect(style.maxWidth).toBe('900px')
+    expect(style.width).toBe('90%')
   });
 })
